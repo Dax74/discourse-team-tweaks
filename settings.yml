@@ -18,3 +18,7 @@ moderator_background:
   default: #ffffea
   description:
     en: "Choose."
+whisper_color:
+  default: #c1c1c1
+  description:
+    en: "Choose."
