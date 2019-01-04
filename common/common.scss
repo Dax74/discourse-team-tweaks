@@ -8,7 +8,7 @@ body {
 
 .topic-post.whisper button.reply, #reply-control.composing-whisper .submit-panel button.create {
   background-color: {$whisper_background};   /*#F7941D*/
-  color: white;
+  color: {$whisper_color};
 }
 
 .topic-post.whisper {
