@@ -1,13 +1,11 @@
-body {
-  .category-staff header.d-header {
+body.category-staff header.d-header {
     background-color: #{$header_background};  /*#f9e9d7*/
-  }
 }
 
 /* Team Whispers */
 
 .topic-post.whisper button.reply, #reply-control.composing-whisper .submit-panel button.create {
-  background-color: #{$whispers_background};  /*#f7941d*/
+  background-color: #{$whisper_background};  /*#f7941d*/
   color: #{$whisper_color};
 }
 
