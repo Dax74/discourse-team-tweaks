@@ -5,12 +5,12 @@ header_background:
 whisper_background:
   default: F7941D
   description:
-en: "Choose."
+    en: "Choose."
 composing_whisper_background:
   default: f7edea
   description:
     en: "Choose."
 moderator_color:
-  default: 880
+  default: 888800
   description:
     en: "Choose."
