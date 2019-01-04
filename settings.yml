@@ -3,7 +3,7 @@ header_background:
   description:
     en: "Choose."
 whisper_background:
-  default: #F7941D
+  default: #f7941d
   description:
     en: "Choose."
 composing_whisper_background:
