@@ -1,14 +1,14 @@
 body {
   &.category-moderation header.d-header, &.category-team header.d-header, &.category-staff header.d-header {
-    background-color: {$header_background};  /*#f9e9d7*/
+    background-color: #{$header_background};  /*#f9e9d7*/
   }
 }
 
 /* Team Whispers */
 
 .topic-post.whisper button.reply, #reply-control.composing-whisper .submit-panel button.create {
-  background-color: {$whisper_background};   /*#F7941D*/
-  color: {$whisper_color};
+  background-color: #{$whisper_background};   /*#F7941D*/
+  color: #{$whisper_color};
 }
 
 .topic-post.whisper {
@@ -21,11 +21,11 @@ body {
   button.create {
     white-space: nowrap;
   }
-  background-color: {$composing_whisper_background};   /*#f7edea*/
+  background-color: #{$composing_whisper_background};   /*#f7edea*/
 }
 
 #reply-control.composing-whisper {
-  background-color: {$composing_whisper_background};   /*#f7edea*/
+  background-color: #{$composing_whisper_background};   /*#f7edea*/
 }
 
 /* Moderator Styling */
@@ -35,14 +35,14 @@ body {
     border: 2px inset yellow;
     margin-top: -2px;
     margin-left: -2px;
-    box-shadow: 0px 0px 2px {$moderator_color};
+    box-shadow: 0px 0px 2px #{$moderator_color};
   }
   .names {
-    color: {$moderator_color};
+    color: #{$moderator_color};
   }
   .topic-body {
     .names span a {
-      color: {$moderator_color};
+      color: #{$moderator_color};
     }
     background-color: {$moderator_background};  /*#ffffea;*/
   }
