@@ -7,7 +7,7 @@ body {
 /* Team Whispers */
 
 .topic-post.whisper button.reply, #reply-control.composing-whisper .submit-panel button.create {
-  background-color: #{$whisper_background};  /*#f7941d*/
+  background-color: #{$whispers_background};  /*#f7941d*/
   color: #{$whisper_color};
 }
 
