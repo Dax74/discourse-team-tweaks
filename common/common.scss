@@ -1,5 +1,5 @@
 body {
-  &.category-moderation header.d-header, &.category-team header.d-header, &.category-staff header.d-header {
+  .category-staff header.d-header {
     background-color: #{$header_background};  /*#f9e9d7*/
   }
 }
