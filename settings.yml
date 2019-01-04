@@ -14,3 +14,7 @@ moderator_color:
   default: 888800
   description:
     en: "Choose."
+moderator_background:
+  default: ffffea
+  description:
+    en: "Choose."
