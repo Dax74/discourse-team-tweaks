@@ -2,7 +2,7 @@ header_background:
   default: #f9e9d7
   description:
     en: "Choose."
-whisper_background:
+whispers_background:
   default: #f7941d
   description:
     en: "Choose."
