@@ -44,7 +44,7 @@ body {
     .names span a {
       color: #{$moderator_color};
     }
-    background-color: {$moderator_background};  /*#ffffea;*/
+    background-color: #{$moderator_background};  /*#ffffea;*/
   }
   span.user-title::after {
     content: ", Moderator";
