@@ -4,9 +4,9 @@ body.category-staff header.d-header {
 
 /* Team Whispers */
 
-.topic-post.whisper button.reply, #reply-control.composing-whisper .submit-panel button.create {
-  background-color: #{$whisper_background};  /*#f7941d*/
-  color: #{$whisper_color};
+/*.topic-post.whisper button.reply, #reply-control.composing-whisper .submit-panel button.create {
+  background-color: #{$whisper_background}; */ /*#f7941d*/
+/*  color: #{$whisper_color};
 }
 
 .topic-post.whisper {
@@ -19,16 +19,16 @@ body.category-staff header.d-header {
   button.create {
     white-space: nowrap;
   }
-  background-color: #{$composing_whisper_background};   /*#f7edea*/
-}
+  background-color: #{$composing_whisper_background}; */  /*#f7edea*/
+/*}
 
 #reply-control.composing-whisper {
-  background-color: #{$composing_whisper_background};   /*#f7edea*/
-}
+  background-color: #{$composing_whisper_background}; */  /*#f7edea*/
+/*}*/
 
 /* Moderator Styling */
 
-.post-stream .moderator {
+/*.post-stream .moderator {
   a.main-avatar img {
     border: 2px inset yellow;
     margin-top: -2px;
@@ -42,11 +42,52 @@ body.category-staff header.d-header {
     .names span a {
       color: #{$moderator_color};
     }
-    background-color: #{$moderator_background};  /*#ffffea;*/
+    background-color: #{$moderator_background};*/  /*#ffffea;*/
   }
-  span.user-title::after {
+/*  span.user-title::after {
     content: ", Moderator";
   }
+}
+
+ul.menu-links li a.keyboard-shortcuts-link {
+  display: none;
+}*/
+------------------*/
+
+
+/* Team Whispers */
+.topic-post.whisper button.reply, #reply-control.composing-whisper .submit-panel button.create {
+  background-color: #{$whisper_background};  /*#f7941d*/
+  color: #{$whisper_color};
+}
+.topic-post.whisper button.reply:after {
+  content: " as Whisper";
+}
+.topic-post.whisper nav.post-controls button.reply {
+  max-width: 180px;
+}
+
+.topic-post.whisper button.create {
+  white-space: nowrap;
+}
+.topic-post.whisper, #reply-control.composing-whisper {
+  background-color: #{$composing_whisper_background};   /*#f7edea*/
+}
+
+
+/* Moderator Styling */
+.post-stream .moderator a.main-avatar img {
+  border: 2px inset yellow; margin-top: -2px; margin-left: -2px;
+  box-shadow: 0px 0px 2px #{$moderator_color};
+}
+.post-stream .moderator .names, .post-stream .moderator .topic-body .names span a {
+  color: #{$moderator_color};
+}
+.post-stream .moderator .topic-body {
+  background-color: #{$moderator_background};  /*#ffffea;*/
+}
+.post-stream .moderator span.user-title::after {
+  content: ", Moderator";
 }
 
 ul.menu-links li a.keyboard-shortcuts-link {
